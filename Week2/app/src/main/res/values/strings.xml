@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Donation</string>
+    <string name="title">title</string>
+    <string name="hello">Welcome You</string>
+    <string name="message">Please Give Generously</string>
+    <string name="paypal">Paypal</string>
+    <string name="direct">Direct</string>
+    <string name="amount">Amount</string>
+    <string name="donate">Donate</string>
+    <string name="total">Total so Far: </string>
+    <string name="tempTotal">$1998</string>
+</resources>
