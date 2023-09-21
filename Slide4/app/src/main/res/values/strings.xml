@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Find house</string>
+
+    <string name="name_hint">Enter your Name</string>
+    <string name="phone_hint">Enter your phone number</string>
+
+    <string name="singlebedroom">1 Bedroom</string>
+    <string name="doublebedroom">2 bedroom</string>
+    <string name="communalb">Communal Bathroom</string>
+    <string name="privateb">Private Bathroom</string>
+    <string name="bed">Bed</string>
+    <string name="desk">Desk</string>
+    <string name="closet">Closet</string>
+
+    <string name="list">Your requirement:</string>
+    <string name="find">Find</string>
+    <string name="exit">EXIT</string>
+</resources>
