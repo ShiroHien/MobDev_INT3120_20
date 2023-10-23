@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#16FF0000"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/headingTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/heading"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="32dp" />
+
+    <Button
+        android:id="@+id/startButton"
+        style="@style/CustomButtonStyle"
+        android:text="@string/startButtonText"
+        app:layout_constraintTop_toBottomOf="@id/headingTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/pauseButton"
+        style="@style/CustomButtonStyle"
+        android:text="@string/stopButtonText"
+        app:layout_constraintTop_toBottomOf="@id/startButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/stopButton"
+        style="@style/CustomButtonStyle"
+        android:text="@string/pauseButtonText"
+        app:layout_constraintTop_toBottomOf="@id/pauseButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/mainImageView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/stopButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="80dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

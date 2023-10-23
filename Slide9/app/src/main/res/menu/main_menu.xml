@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/ContactProvider"
+        android:title="Contact Provider"/>
+    <item
+        android:id="@+id/SQL"
+        android:title="SQLite"/>
+</menu>

@@ -9,26 +9,26 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <TextView
-            android:textSize="50dp"
+            android:textSize="45sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Text 1" />
         <TextView
-            android:textSize="50dp"
+            android:textSize="45sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Text 2" />
     </LinearLayout>
     <Button
         android:id="@+id/btn1"
-        android:textSize="50dp"
+        android:textSize="45sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="Button 1" />
     <Button
         android:id="@+id/btn2"
-        android:textSize="50dp"
+        android:textSize="45sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"

@@ -7,7 +7,7 @@
         android:id="@+id/EL01"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Box One"
+        android:text="Element One"
         android:textSize="20dp" />
 
     <TextView
@@ -15,7 +15,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/EL01"
-        android:text="Box Two"
+        android:text="Element Two"
         android:textSize="20dp" />
 
     <TextView
@@ -23,6 +23,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_toRightOf="@id/EL02"
-        android:text="Box Three"
+        android:text="Element Three"
         android:textSize="20dp" />
 </RelativeLayout>

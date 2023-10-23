@@ -48,7 +48,8 @@ public class MainActivity extends AppCompatActivity {
                     public boolean onMenuItemClick(MenuItem menuItem) {
                         switch (menuItem.getItemId()){
                             case R.id.item1:
-                                Toast.makeText(MainActivity.this,"Search",Toast.LENGTH_SHORT).show();
+//                                Toast.makeText(MainActivity.this,"Search",Toast.LENGTH_SHORT).show();
+
                                 break;
                             case R.id.item2:
                                 Toast.makeText(MainActivity.this,"Item2",Toast.LENGTH_SHORT).show();
